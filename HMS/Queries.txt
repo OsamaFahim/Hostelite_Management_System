@@ -1,0 +1,17 @@
+CREATE TABLE Room_Service (
+    room_service_id INT PRIMARY KEY AUTO_INCREMENT,
+    hostelite_id INT,
+    hostel_id INT,
+    status INT,
+    FOREIGN KEY (hostelite_id) REFERENCES person(person_id),
+    FOREIGN KEY (hostel_id) REFERENCES hostel(hostel_id)
+);
+
+CREATE TABLE IF NOT EXISTS Payment (
+    Payment_id INT PRIMARY KEY AUTO_INCREMENT,
+    hostelite_id INT,
+    hostel_id INT,
+    status INT,
+    FOREIGN KEY (hostelite_id) REFERENCES person(person_id),
+    FOREIGN KEY (hostel_id) REFERENCES hostel(hostel_id)
+);

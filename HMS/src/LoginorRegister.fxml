@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="533.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginorRegisterController">
+    <children>
+        <Text fill="#0598ff" layoutX="502.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select" textAlignment="RIGHT">
+            <font>
+                <Font size="52.0" />
+            </font>
+        </Text>
+        <AnchorPane layoutX="-111.0" layoutY="-1.0" prefHeight="536.0" prefWidth="502.0" style="-fx-background-color: #0598ff;">
+            <children>
+                <Text fill="WHITE" layoutX="240.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hostel">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="193.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Management">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="233.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="System">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="185.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hostel">
+               <font>
+                  <Font size="87.0" />
+               </font>
+            </Text>
+            <Text layoutX="342.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text layoutX="338.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fill="#fffdfd" layoutX="223.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hive">
+               <font>
+                  <Font size="87.0" />
+               </font>
+            </Text>
+            </children>
+        </AnchorPane>
+        <Button fx:id="LoginButton" layoutX="501.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="63.0" prefWidth="138.0" style="-fx-background-color: #0598ff;" text="Login" textFill="WHITE">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button fx:id="RegisterButton" layoutX="501.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleRegisterButton" prefHeight="63.0" prefWidth="138.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+      <Button layoutX="673.0" layoutY="14.0" mnemonicParsing="false" onAction="#CLOSEBUTTON" style="-fx-background-color: #0598ff;" text="CLOSE" textFill="#fafafa" />
+    </children>
+</AnchorPane>
