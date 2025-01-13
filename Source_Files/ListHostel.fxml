@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListHostelController">
+    <children>
+        <Text fill="#0598ff" layoutX="240.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Provide Detials" textAlignment="RIGHT">
+            <font>
+                <Font size="39.0" />
+            </font>
+        </Text>
+            <Text fill="#0598ff" layoutX="224.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meal Options">
+                <font>
+                    <Font size="25.0" />
+                </font>
+            </Text>
+      <TextField fx:id="HostelName" layoutX="228.0" layoutY="75.0" prefHeight="27.0" prefWidth="206.0" promptText="Enter Hostel Name" style="-fx-background-color: transparent; -fx-border-color: #0598ff;" />
+      <TextField fx:id="cityfield" layoutX="228.0" layoutY="119.0" prefHeight="27.0" prefWidth="206.0" promptText="Enter City " style="-fx-background-color: transparent; -fx-border-color: #0598ff;" />
+      <TextField fx:id="numRoomsField" layoutX="228.0" layoutY="164.0" prefHeight="27.0" prefWidth="206.0" promptText="Enter Number of Rooms" style="-fx-background-color: transparent; -fx-border-color: #0598ff;" />
+      <TextField fx:id="roomservicesField" layoutX="228.0" layoutY="212.0" prefHeight="27.0" prefWidth="206.0" promptText="Enter Rooms Service Charges in RS" style="-fx-background-color: transparent; -fx-border-color: #0598ff;" />
+      <TextField fx:id="mealPriceField" layoutX="228.0" layoutY="467.0" prefHeight="27.0" prefWidth="206.0" promptText="Enter Price per Meal in RS" style="-fx-background-color: transparent; -fx-border-color: #0598ff;" />
+      <Button fx:id="registerButton" layoutX="285.0" layoutY="511.0" mnemonicParsing="false" onAction="#handleRegisterButton" prefHeight="43.0" prefWidth="78.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" />
+      <CheckBox fx:id="breakfastCheckbox" layoutX="228.0" layoutY="314.0" mnemonicParsing="false" text="Breakfast">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="lunchCheckbox" layoutX="228.0" layoutY="368.0" mnemonicParsing="false" text="Lunch">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="dinnerCheckbox" layoutX="228.0" layoutY="420.0" mnemonicParsing="false" text="Dinner">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="673.0" layoutY="14.0" mnemonicParsing="false" onAction="#CLOSEBUTTON" style="-fx-background-color: #0598ff;" text="CLOSE" textFill="#fafafa" />
+    </children>
+</AnchorPane>

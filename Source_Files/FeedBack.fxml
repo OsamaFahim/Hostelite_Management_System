@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="644.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FeedbackController">
+   <children>
+      <Text fill="#0598ff" layoutX="294.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feedback" textAlignment="RIGHT">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Text>
+      <Text fill="#0598ff" layoutX="28.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food Quality ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fill="#0598ff" layoutX="27.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Quality">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="FoodQual_Excellent" layoutX="29.0" layoutY="126.0" mnemonicParsing="false" text="Excellent">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="FoodQual_Satisfactory" layoutX="29.0" layoutY="166.0" mnemonicParsing="false" text="Satisfactory">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="RoomQual_Excellent" layoutX="29.0" layoutY="296.0" mnemonicParsing="false" text="Excellent">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="RoomQual_Satisfactory" layoutX="29.0" layoutY="328.0" mnemonicParsing="false" text="Satisfactory">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="FoodQual_Poor" layoutX="29.0" layoutY="203.0" mnemonicParsing="false" text="Poor">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="RoomQual_Poor" layoutX="29.0" layoutY="362.0" mnemonicParsing="false" text="Poor">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Text fill="#0598ff" layoutX="25.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comments ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="SubmitButton" layoutX="363.0" layoutY="586.0" mnemonicParsing="false" onAction="#handleSubmitButton" prefHeight="43.0" prefWidth="78.0" style="-fx-background-color: #0598ff;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="CommentBox" layoutX="17.0" layoutY="432.0" prefHeight="143.0" prefWidth="738.0" promptText="Provide Suggestions and Recommendations">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <Text fill="#0598ff" layoutX="462.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food Maintenance">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="FoodMain_Excellent" layoutX="465.0" layoutY="126.0" mnemonicParsing="false" text="Excellent">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="FoodMain_Satisfactory" layoutX="465.0" layoutY="166.0" mnemonicParsing="false" text="Satisfactory">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="FoodMain_Poor" layoutX="466.0" layoutY="203.0" mnemonicParsing="false" text="Poor">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Text fill="#0598ff" layoutX="462.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Maintenance">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="RoomMain_Excellent" layoutX="465.0" layoutY="296.0" mnemonicParsing="false" text="Excellent">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="RoomMain_Satisfactory" layoutX="465.0" layoutY="328.0" mnemonicParsing="false" text="Satisfactory">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="RoomMain_Poor" layoutX="464.0" layoutY="362.0" mnemonicParsing="false" text="Poor">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+       <Button layoutX="700.0" layoutY="14.0" mnemonicParsing="false" onAction="#CLOSEBUTTON" style="-fx-background-color: #0598ff;" text="CLOSE" textFill="#fafafa" />
+   </children>
+</AnchorPane>
